@@ -1,3 +1,6 @@
+## Purpose
+Given a sequence of events, each having a start and end time, this program will return the sequence of all pairs of overlapping events.
+
 ## Usage
 
 Running the main.go will accept a list of "events" from stdin.
@@ -18,7 +21,9 @@ Input:
 ```
 
 Output:
-`(2018-12-01 12:50 13:30, 2018-12-01 13:20 14:20)`
+```
+(2018-12-01 12:50 13:30, 2018-12-01 13:20 14:20)
+```
 
 
 Example 2
