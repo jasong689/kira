@@ -3,7 +3,7 @@ Given a sequence of events, each having a start and end time, this program will 
 
 ## Usage
 
-Running the main.go will accept a list of "events" from stdin.
+Running main.go will accept a list of "events" from stdin.
 
 Events should be in the format of `2019-01-01 15:30 16:30`. Each event should be entered on a newline. Once all events have been entered and `end` has been sent to stdin, overlaps will be returned to stdout.
 
