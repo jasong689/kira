@@ -5,8 +5,11 @@ Given a sequence of events, each having a start and end time, this program will 
 
 Running main.go will accept a list of "events" from stdin.
 
-Events should be in the format of `2019-01-01 15:30 16:30`. Each event should be entered on a newline. Once all events have been entered and `end` has been sent to stdin, overlaps will be returned to stdout.
+Events should be in the format of `2019-01-01 15:30 16:30` where `15:30` is the event start time and `16:30` is the event end time. Each event should be entered on a newline. Once all events have been entered and `end` has been sent to stdin, overlaps will be returned to stdout.
 
+## Tests
+
+Use `go test` to run tests.
 
 ## Examples
 Example 1
